@@ -12,6 +12,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        Log.info("Slow network Connectivity.")
+        Log.warning("Username shouldn't be nil.")
+        Log.error("User authentication failed.")
     }
 
 
